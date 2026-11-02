@@ -45,7 +45,7 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *IEEE Trans. Image Process. 2026* · [📄 Paper](https://doi.org/10.1109/TIP.2026.3692025)
 
 - **Super-Resolution in The Right Latent Space: A Frozen Vision-Foundation Substrate**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2610.04781)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2610.04781)
 
 - **Intra and Inter Parser-Prompted Transformers for Effective Image Restoration**\
   *AAAI 2025* · [📄 Paper](https://arxiv.org/abs/2503.14037)
@@ -66,10 +66,10 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *ECCV 2024* · [📄 Paper](https://arxiv.org/abs/2509.20091)
 
 - **A Dive into SAM Prior in Image Restoration** (SAM priors)\
-  *Preprint 2023* · [📄 Paper](https://arxiv.org/abs/2305.13620)
+  *arXiv 2023* · [📄 Paper](https://arxiv.org/abs/2305.13620)
 
 - **Multi-task Image Restoration Guided By Robust DINO Features** (DINO-IR)\
-  *Preprint 2023* · [📄 Paper](https://arxiv.org/abs/2312.01677)
+  *arXiv 2023* · [📄 Paper](https://arxiv.org/abs/2312.01677)
 
 #### Degradation and Instruction Conditioning
 
@@ -80,13 +80,13 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *AAAI 2026* · [📄 Paper](https://arxiv.org/abs/2601.02763) · [💻 Code](https://github.com/House-yuyu/ClearAIR)
 
 - **Leveraging Multimodal Large Language Models for All-in-One Image Restoration via a Mixture of Frequency Experts**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2605.11444)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2605.11444)
 
 - **QuReC: All-in-One Image Restoration with Query-Specific Guidance and Local-Global Response Calibration**\
   *ACM MM 2026* · [📄 Paper](https://arxiv.org/abs/2607.15097) · [💻 Code](https://github.com/zhoushen1/QuReC)
 
 - **SLER-IR: Spherical Layer-wise Expert Routing for All-in-One Image Restoration**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2603.05940) · [🌐 Project](https://github.com/PSR666/SLER-IR)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2603.05940) · [🌐 Project](https://github.com/PSR666/SLER-IR)
 
 - **RamIR: Reasoning and action prompting with mamba for all-in-one image restoration**\
   *Appl. Intell. 2025* · [📄 Paper](https://link.springer.com/article/10.1007/s10489-024-06226-y)
@@ -98,10 +98,10 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *CVPR 2025* · [📄 Paper](https://arxiv.org/abs/2503.16930) · [💻 Code](https://github.com/xianggkl/VLU-Net)
 
 - **VL-UR: Vision-Language-guided Universal Restoration of Images Degraded by Adverse Weather Conditions**\
-  *Preprint 2025* · [📄 Paper](https://arxiv.org/abs/2504.08219)
+  *arXiv 2025* · [📄 Paper](https://arxiv.org/abs/2504.08219)
 
 - **AWRaCLe: All-Weather Image Restoration using Visual In-Context Learning**\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2409.00263) · [💻 Code](https://github.com/sudraj2002/AWRaCLe)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2409.00263) · [💻 Code](https://github.com/sudraj2002/AWRaCLe)
 
 - **Controlling Vision-Language Models for Multi-Task Image Restoration** (DA-CLIP)\
   *ICLR 2024* · [📄 Paper](https://arxiv.org/abs/2310.01018) · [💻 Code](https://github.com/Algolzw/daclip-uir)
@@ -113,10 +113,10 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *ECCV 2024* · [📄 Paper](https://arxiv.org/abs/2401.16468) · [💻 Code](https://github.com/mv-lab/InstructIR) · [🌐 Project](https://mv-lab.github.io/InstructIR/)
 
 - **LoRA-IR: Taming Low-Rank Experts for Efficient All-in-One Image Restoration**\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2410.15385) · [💻 Code](https://github.com/shallowdream204/LoRA-IR)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2410.15385) · [💻 Code](https://github.com/shallowdream204/LoRA-IR)
 
 - **Training-Free Large Model Priors for Multiple-in-One Image Restoration** (LMDIR)\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2407.13181)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2407.13181)
 
 #### Language Model Adaptation
 
@@ -127,7 +127,7 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *CVPR 2024* · [📄 Paper](https://arxiv.org/abs/2403.07874) · [💻 Code](https://github.com/zh460045050/V2L-Tokenizer)
 
 - **LM4LV: A Frozen Large Language Model for Low-level Vision Tasks**\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2405.15734) · [💻 Code](https://github.com/bytetriper/LM4LV)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2405.15734) · [💻 Code](https://github.com/bytetriper/LM4LV)
 
 ### Image Restoration with Generative Priors
 
@@ -146,7 +146,7 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *ICML 2024* · [📄 Paper](https://arxiv.org/abs/2402.14017)
 
 - **Decoupled Data Consistency with Diffusion Purification for Image Restoration**\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2403.06054)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2403.06054)
 
 - **Diffusion Priors for Variational Likelihood Estimation and Image Denoising**\
   *NeurIPS 2024* · [📄 Paper](https://arxiv.org/abs/2410.17521) · [💻 Code](https://github.com/HUST-Tan/DiffusionVI)
@@ -176,7 +176,7 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *CVPR 2022* · [📄 Paper](https://arxiv.org/abs/2201.09865) · [💻 Code](https://github.com/andreas128/RePaint)
 
 - **Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model**\
-  *Preprint 2022* · [📄 Paper](https://arxiv.org/abs/2212.00490) · [💻 Code](https://github.com/wyhuai/DDNM)
+  *arXiv 2022* · [📄 Paper](https://arxiv.org/abs/2212.00490) · [💻 Code](https://github.com/wyhuai/DDNM)
 
 - **PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models**\
   *CVPR 2020* · [📄 Paper](https://arxiv.org/abs/2003.03808)
@@ -199,19 +199,19 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *CVPR 2026* · [📄 Paper](https://arxiv.org/abs/2508.16557)
 
 - **UnSCAR: Universal, Scalable, Controllable, and Adaptable Image Restoration**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2603.07406)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2603.07406)
 
 - **ADIR: Adaptive Diffusion for Image Reconstruction**\
   *BMVC 2025* · [📄 Paper](https://arxiv.org/abs/2212.03221)
 
 - **DarkDiff: Advancing Low-Light Raw Enhancement by Retasking Diffusion Models for Camera ISP**\
-  *Preprint 2025* · [📄 Paper](https://arxiv.org/abs/2505.23743)
+  *arXiv 2025* · [📄 Paper](https://arxiv.org/abs/2505.23743)
 
 - **DiT4SR: Taming Diffusion Transformer for Real-World Image Super-Resolution**\
   *ICCV 2025* · [📄 Paper](https://arxiv.org/abs/2503.23580) · [💻 Code](https://github.com/Adam-duan/DiT4SR) · [🌐 Project](https://adam-duan.github.io/projects/dit4sr/)
 
 - **InstructRestore: Region-Customized Image Restoration with Human Instructions**\
-  *Preprint 2025* · [📄 Paper](https://arxiv.org/abs/2503.24357) · [💻 Code](https://github.com/shuaizhengliu/InstructRestore)
+  *arXiv 2025* · [📄 Paper](https://arxiv.org/abs/2503.24357) · [💻 Code](https://github.com/shuaizhengliu/InstructRestore)
 
 - **Diff-Plugin: Revitalizing Details for Diffusion-based Low-level Tasks**\
   *CVPR 2024* · [📄 Paper](https://arxiv.org/abs/2403.00644) · [🌐 Project](https://yuhaoliu7456.github.io/Diff-Plugin/)
@@ -264,7 +264,7 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *CVPR 2026* · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Back_IFCSR_Inference-Free_Fidelity-Realism_Control_for_One-Step_Diffusion-based_Real-World_Image_Super-Resolution_CVPR_2026_paper.html)
 
 - **MFSR: MeanFlow Distillation for One Step Real-World Image Super Resolution**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2603.20690) · [🌐 Project](https://wrqcodedoge.github.io/mfsr.github.io/)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2603.20690) · [🌐 Project](https://wrqcodedoge.github.io/mfsr.github.io/)
 
 - **One-Step Diffusion Transformer for Controllable Real-World Image Super-Resolution** (ODTSR)\
   *CVPR 2026* · [📄 Paper](https://arxiv.org/abs/2511.17138)
@@ -299,7 +299,7 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *ICLR 2026* · [📄 Paper](https://arxiv.org/abs/2509.23082) · [💻 Code](https://github.com/shenytzzz/Follow-Your-Preference)
 
 - **GGT-100K: Generative Ground Truth for Generalizable Real-World Image Restoration**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2605.31039) · [💻 Code](https://github.com/PolyU-VCLab/GGT-100K) · [🌐 Project](https://polyu-vclab.github.io/GGT-100K/)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2605.31039) · [💻 Code](https://github.com/PolyU-VCLab/GGT-100K) · [🌐 Project](https://polyu-vclab.github.io/GGT-100K/)
 
 - **IQA-T1: Tool-based Visual Evidence Reasoning for Image Quality Assessment**\
   *ECCV 2026* · [📄 Paper](https://arxiv.org/abs/2607.12375) · [💻 Code](https://github.com/zibuyu-02/IQA-T1)
@@ -314,7 +314,7 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *CVPR 2025* · [📄 Paper](https://arxiv.org/abs/2411.17687)
 
 - **Hallucination Score: Towards Mitigating Hallucinations in Generative Image Super-Resolution**\
-  *Preprint 2025* · [📄 Paper](https://arxiv.org/abs/2507.14367)
+  *arXiv 2025* · [📄 Paper](https://arxiv.org/abs/2507.14367)
 
 - **SnowMaster: Comprehensive Real-world Image Desnowing via MLLM with Multi-Model Feedback Optimization**\
   *CVPR 2025* · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Lai_SnowMaster_Comprehensive_Real-world_Image_Desnowing_via_MLLM_with_Multi-Model_Feedback_CVPR_2025_paper.pdf) · [🌐 Project](https://alexlai2860.github.io/SnowMaster)
@@ -326,16 +326,16 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *ECCV 2024* · [📄 Paper](https://arxiv.org/abs/2312.08962) · [🌐 Project](https://depictqa.github.io)
 
 - **DiffLoss: unleashing diffusion model as constraint for training image restoration network**\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2406.19030) · [💻 Code](https://github.com/JosephTiTan/DiffLoss)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2406.19030) · [💻 Code](https://github.com/JosephTiTan/DiffLoss)
 
 - **LossAgent: Towards Any Optimization Objectives for Image Processing with LLM Agents**\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2412.04090) · [🌐 Project](https://github.com/lbc12345/LossAgent)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2412.04090) · [🌐 Project](https://github.com/lbc12345/LossAgent)
 
 - **Exploring CLIP for Assessing the Look and Feel of Images** (CLIP-IQA)\
   *AAAI 2023* · [📄 Paper](https://arxiv.org/abs/2207.12396) · [💻 Code](https://github.com/IceClear/CLIP-IQA)
 
 - **SUD²: Supervision by Denoising Diffusion Models for Image Reconstruction**\
-  *Preprint 2023* · [📄 Paper](https://arxiv.org/abs/2303.09642)
+  *arXiv 2023* · [📄 Paper](https://arxiv.org/abs/2303.09642)
 
 <a id="foundation-models-for-image-restoration"></a>
 
@@ -346,7 +346,7 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
 #### Multi-Task Pretraining
 
 - **Elucidating and Endowing the Diffusion Training Paradigm for General Image Restoration** (Diffusion-inspired training)\
-  *Preprint 2025* · [📄 Paper](https://arxiv.org/abs/2506.21722)
+  *arXiv 2025* · [📄 Paper](https://arxiv.org/abs/2506.21722)
 
 - **On Efficient Transformer-Based Image Pre-training for Low-Level Vision** (EDT)\
   *IJCAI 2023* · [📄 Paper](https://ijcai.org/proceedings/2023/121) · [💻 Code](https://github.com/fenglinglwb/EDT)
@@ -360,13 +360,13 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
 #### Masked Image Modeling
 
 - **Dynamic Pre-training: Towards Efficient and Scalable All-in-One Image Restoration**\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2404.02154) · [💻 Code](https://github.com/akshaydudhane16/DyNet)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2404.02154) · [💻 Code](https://github.com/akshaydudhane16/DyNet)
 
 - **Restore Anything with Masks: Leveraging Mask Image Modeling for Blind All-in-One Image Restoration** (RAM)\
   *ECCV 2024* · [📄 Paper](https://arxiv.org/abs/2409.19403) · [💻 Code](https://github.com/DragonisCV/RAM)
 
 - **Masked Autoencoders as Image Processors** (MAEIP)\
-  *Preprint 2023* · [📄 Paper](https://arxiv.org/abs/2303.17316) · [🌐 Project](https://github.com/DuanHuiyu/MAEIP_CSformer)
+  *arXiv 2023* · [📄 Paper](https://arxiv.org/abs/2303.17316) · [🌐 Project](https://github.com/DuanHuiyu/MAEIP_CSformer)
 
 #### Degradation-Aware Pretraining
 
@@ -377,7 +377,7 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *ICLR 2025* · [📄 Paper](https://arxiv.org/abs/2501.15510) · [💻 Code](https://github.com/MILab-PKU/dcpt)
 
 - **ConStyle v2: A Strong Prompter for All-in-One Image Restoration**\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2406.18242) · [💻 Code](https://github.com/Dongqi-Fan/ConStyle_v2)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2406.18242) · [💻 Code](https://github.com/Dongqi-Fan/ConStyle_v2)
 
 - **DegAE: A New Pretraining Paradigm for Low-Level Vision**\
   *CVPR 2023* · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Liu_DegAE_A_New_Pretraining_Paradigm_for_Low-Level_Vision_CVPR_2023_paper.html) · [💻 Code](https://github.com/lyh-18/DegAE_DegradationAutoencoder) · [🌐 Project](https://xpixel.group/2022/10/20/DegAE.html)
@@ -390,13 +390,13 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *ICLR 2026* · [📄 Paper](https://arxiv.org/abs/2412.20157) · [💻 Code](https://github.com/mrluin/UniRestorer)
 
 - **AllRestorer: All-in-one transformer for image restoration under composite degradations**\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2411.10708)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2411.10708)
 
 - **OneRestore: A Universal Restoration Framework for Composite Degradation**\
   *ECCV 2024* · [📄 Paper](https://arxiv.org/abs/2407.04621) · [💻 Code](https://github.com/gy65896/OneRestore)
 
 - **Towards Effective Multiple-in-One Image Restoration: A Sequential and Prompt Learning Strategy**\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2401.03379) · [💻 Code](https://github.com/Xiangtaokong/MiOIR)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2401.03379) · [💻 Code](https://github.com/Xiangtaokong/MiOIR)
 
 - **Ingredient-Oriented Multi-Degradation Learning for Image Restoration** (IDR)\
   *CVPR 2023* · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhang_Ingredient-Oriented_Multi-Degradation_Learning_for_Image_Restoration_CVPR_2023_paper.pdf) · [💻 Code](https://github.com/Jinghaoleven/IDR-Ingredients-oriented-Degradation-Reformulation)
@@ -416,10 +416,10 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
 #### Visual In-Context Learning
 
 - **Hidden-Shot: Towards One-Shot Task Generalization for Low-Level Vision Generalist Models**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2607.01535)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2607.01535)
 
 - **Exploring Scalable Unified Modeling for General Low-Level Vision** (GenLV scaling)\
-  *Preprint 2025* · [📄 Paper](https://arxiv.org/abs/2507.14801)
+  *arXiv 2025* · [📄 Paper](https://arxiv.org/abs/2507.14801)
 
 - **LaVin-DiT: Large Vision Diffusion Transformer**\
   *CVPR 2025* · [📄 Paper](https://arxiv.org/abs/2411.11505) · [💻 Code](https://github.com/DerrickWang005/LaVin-DiT)
@@ -448,23 +448,23 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *ICCV 2025* · [📄 Paper](https://arxiv.org/abs/2412.01427) · [💻 Code](https://github.com/House-Leo/FoundIR)
 
 - **Lumina-OmniLV: A Unified Multimodal Framework for General Low-Level Vision**\
-  *Preprint 2025* · [📄 Paper](https://arxiv.org/abs/2504.04903) · [💻 Code](https://github.com/Andrew0613/Lumina-Omnilv) · [🌐 Project](https://andrew0613.github.io/OmniLV_page/)
+  *arXiv 2025* · [📄 Paper](https://arxiv.org/abs/2504.04903) · [💻 Code](https://github.com/Andrew0613/Lumina-Omnilv) · [🌐 Project](https://andrew0613.github.io/OmniLV_page/)
 
 - **Palette: Image-to-Image Diffusion Models**\
-  *Preprint 2021* · [📄 Paper](https://arxiv.org/abs/2111.05826) · [🌐 Project](https://iterative-refinement.github.io/palette/)
+  *arXiv 2021* · [📄 Paper](https://arxiv.org/abs/2111.05826) · [🌐 Project](https://iterative-refinement.github.io/palette/)
 
 ### Transfer and Adaptation
 
 #### Transfer to New Tasks and Domains
 
 - **DDTNet: Degradation Disentanglement and Transfer Network for Test-Time All-in-One De-weathering Adaptation**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2606.16298)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2606.16298)
 
 - **Degradation-Consistent Test-Time Adaptation for All-in-One Image Restoration** (Degradation-consistent TTA)\
   *CVPR 2026* · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2026/papers/Tang_Degradation-Consistent_Test-Time_Adaptation_for_All-in-One_Image_Restoration_CVPR_2026_paper.pdf) · [💻 Code](https://github.com/tonia86/DCTTA)
 
 - **AdaIR: Exploiting Underlying Similarities of Image Restoration Tasks with Adapters**\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2404.11475)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2404.11475)
 
 - **Contribution-based Low-Rank Adaptation with Pre-training Model for Real Image Restoration** (PROD + CoLoRA)\
   *ECCV 2024* · [📄 Paper](https://arxiv.org/abs/2408.01099) · [🌐 Project](https://janeyeon.github.io/colora/)
@@ -476,21 +476,21 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *NeurIPS 2024* · [📄 Paper](https://arxiv.org/abs/2312.08881) · [💻 Code](https://github.com/csguoh/AdaptIR)
 
 - **ProRes: Exploring Degradation-aware Visual Prompt for Universal Image Restoration**\
-  *Preprint 2023* · [📄 Paper](https://arxiv.org/abs/2306.13653) · [💻 Code](https://github.com/leonmakise/ProRes)
+  *arXiv 2023* · [📄 Paper](https://arxiv.org/abs/2306.13653) · [💻 Code](https://github.com/leonmakise/ProRes)
 
 #### Continual Image Restoration
 
 - **Learning to Restore More: Continual Capability Expansion for Pretrained Image Restoration Models**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2608.30305)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2608.30305)
 
 - **Restoring Without Forgetting: Continual Learning Across Image Degradations**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2608.23799) · [💻 Code](https://github.com/AlifAshrafee/Restoring-Without-Forgetting)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2608.23799) · [💻 Code](https://github.com/AlifAshrafee/Restoring-Without-Forgetting)
 
 - **A Minimalistic Unified Framework for Incremental Learning across Image Restoration Tasks** (MINI-Conv)\
   *NeurIPS 2025* · [📄 Paper](https://openreview.net/pdf/13e99d7ed18b26efa7b85826e1e8a99df5c73f39.pdf)
 
 - **Continual All-in-One Adverse Weather Removal with Knowledge Replay on a Unified Network Structure** (Continual weather removal)\
-  *Preprint 2024* · [📄 Paper](https://arxiv.org/abs/2403.07292) · [💻 Code](https://github.com/xiaojihh/CL_all-in-one)
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2403.07292) · [💻 Code](https://github.com/xiaojihh/CL_all-in-one)
 
 <a id="agentic-image-restoration"></a>
 
@@ -502,7 +502,7 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *Int. J. Comput. Vis. 2026* · [📄 Paper](https://arxiv.org/abs/2503.09403) · [🌐 Project](https://villa.jianzhang.tech/publication/200604/)
 
 - **OPERA: An Agent for Image Restoration with End-to-End Joint Planning-Execution Optimization**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2605.22104) · [💻 Code](https://github.com/xsyshuishui/Opera)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2605.22104) · [💻 Code](https://github.com/xsyshuishui/Opera)
 
 - **An Intelligent Agentic System for Complex Image Restoration Problems** (AgenticIR)\
   *ICLR 2025* · [📄 Paper](https://arxiv.org/abs/2410.17809) · [💻 Code](https://github.com/Kaiwen-Zhu/AgenticIR) · [🌐 Project](https://kaiwen-zhu.github.io/research/agenticir)
@@ -519,7 +519,7 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *CVPR 2026* · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Xiong_Beyond_Sequential_Tools_A_Unified_VLM_Agent_System_for_Photographic_CVPR_2026_paper.html)
 
 - **DiTTo: Scalable Order-aware All-in-One Image Restoration Agent**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2605.30915) · [🌐 Project](https://cmlab-korea.github.io/DiTTo/)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2605.30915) · [🌐 Project](https://cmlab-korea.github.io/DiTTo/)
 
 - **FAPE-IR: Frequency-Aware Planning and Execution Framework for All-in-One Image Restoration**\
   *CVPR 2026* · [📄 Paper](https://arxiv.org/abs/2511.14099) · [💻 Code](https://github.com/Programmergg/FAPE-IR)
@@ -536,7 +536,7 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *CVPR Findings 2026* · [📄 Paper](https://arxiv.org/abs/2507.18064) · [💻 Code](https://github.com/sunxiaoran01/VLM-IMI)
 
 - **HarnessIR: Harnessing Multimodal Foundation Models for Universal Real-World Image Restoration**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2610.10133) · [💻 Code](https://github.com/PolyU-VCLab/HarnessIR)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2610.10133) · [💻 Code](https://github.com/PolyU-VCLab/HarnessIR)
 
 - **Hybrid Agents for Image Restoration**\
   *CVPR 2026* · [📄 Paper](https://arxiv.org/abs/2503.10120)
@@ -548,24 +548,24 @@ This list follows the taxonomy of *A Survey on Image Restoration in the Foundati
   *NeurIPS 2025* · [📄 Paper](https://arxiv.org/abs/2507.07105) · [💻 Code](https://github.com/taco-group/4KAgent) · [🌐 Project](https://4kagent.github.io/)
 
 - **Q-Agent: Quality-Driven Chain-of-Thought Image Restoration Agent through Robust Multimodal Large Language Model**\
-  *Preprint 2025* · [📄 Paper](https://arxiv.org/abs/2504.07148)
+  *arXiv 2025* · [📄 Paper](https://arxiv.org/abs/2504.07148)
 
 - **Clarity ChatGPT: An Interactive and Adaptive Processing System for Image Restoration and Enhancement**\
-  *Preprint 2023* · [📄 Paper](https://arxiv.org/abs/2311.11695)
+  *arXiv 2023* · [📄 Paper](https://arxiv.org/abs/2311.11695)
 
 ### Experience Retrieval
 
 - **Causal-AgentIR: Self-Evolving Causal Memory for Adaptive Image Restoration Agents**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2607.21125)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2607.21125)
 
 - **EvoIR-Agent: Self-Evolving Image Restoration Agentic System via Experience-Driven Learning**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2605.22208) · [🌐 Project](https://github.com/rightleft-123/EvoIRAgent)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2605.22208) · [🌐 Project](https://github.com/rightleft-123/EvoIRAgent)
 
 - **PaAgent: Portrait-Aware Image Restoration Agent via Subjective-Objective Reinforcement Learning**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2603.17055) · [🌐 Project](https://wyjgr.github.io/PaAgent.html)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2603.17055) · [🌐 Project](https://wyjgr.github.io/PaAgent.html)
 
 - **Self-evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution** (SEAR)\
   *ECCV 2026* · [📄 Paper](https://arxiv.org/abs/2606.28971)
 
 - **SkillIR: Evolving Scene-Aware Skills for Agentic Image Restoration**\
-  *Preprint 2026* · [📄 Paper](https://arxiv.org/abs/2609.21468)
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2609.21468)
