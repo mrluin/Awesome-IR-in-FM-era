@@ -14,7 +14,6 @@
 
 This list follows the taxonomy of *A Survey on Image Restoration in the Foundation Model Era*. It covers methods that use foundation models for restoration, the development of restoration foundation models, and agents that plan and refine restoration workflows.
 
-Each paper has one primary entry. Foundational models, conventional baselines, and related surveys are identified separately as background.
 
 ## Contents
 
