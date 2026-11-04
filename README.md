@@ -10,7 +10,9 @@
   <img src="https://img.shields.io/badge/Agentic-Restoration-0f766e?style=flat-square" alt="Topic: Agentic Restoration">
 </p>
 
-This list follows the complete reference coverage of *A Survey on Image Restoration in the Foundation Model Era*. It is organized around image restoration with foundation models, restoration-oriented foundation models, and agentic image restoration. Datasets, evaluation resources, comparison baselines, and foundational background are grouped separately.
+The main list follows the works reviewed Sections II–IV of *A Survey on Image Restoration in the Foundation Model Era*.
+
+
 
 <a id="contents"></a>
 
@@ -29,13 +31,7 @@ This list follows the complete reference coverage of *A Survey on Image Restorat
   - [Tool Selection](#tool-selection)
   - [Feedback and Refinement](#feedback-and-refinement)
   - [Experience Retrieval](#experience-retrieval)
-  - [Related Learned and Sequential Mechanisms](#related-learned-and-sequential-restoration-mechanisms)
-- [📊 Datasets and Evaluation Resources](#datasets-and-evaluation-resources)
-  - [Datasets and Benchmarks](#datasets-and-benchmarks)
-  - [Quality Metrics](#quality-metrics)
-  - [Quality and Fidelity Grounding Benchmarks](#quality-and-fidelity-grounding-benchmarks)
-- [📚 Supporting Papers](#supporting-papers)
-- [🤝 Contributing](#contributing)
+
 
 <a id="image-restoration-with-foundation-models"></a>
 
@@ -66,9 +62,6 @@ This list follows the complete reference coverage of *A Survey on Image Restorat
 - **SAM-Deblur: Let Segment Anything Boost Image Deblurring**\
   *ICASSP 2024* · [📄 Paper](https://arxiv.org/abs/2309.02270) · [💻 Code](https://github.com/HPLQAQ/SAM-Deblur) · [🌐 Project](https://hplqaq.github.io/projects/sam-deblur)
 
-- **Transfer CLIP for Generalizable Image Denoising** (CLIPDenoising)\
-  *CVPR 2024* · [📄 Paper](https://arxiv.org/abs/2403.15132) · [💻 Code](https://github.com/alwaysuu/CLIPDenoising)
-
 - **Unleashing the Potential of the Semantic Latent Space in Diffusion Models for Image Dehazing** (DiffLI²D)\
   *ECCV 2024* · [📄 Paper](https://arxiv.org/abs/2509.20091)
 
@@ -95,14 +88,8 @@ This list follows the complete reference coverage of *A Survey on Image Restorat
 - **SLER-IR: Spherical Layer-wise Expert Routing for All-in-One Image Restoration**\
   *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2603.05940) · [🌐 Project](https://github.com/PSR666/SLER-IR)
 
-- **RamIR: Reasoning and action prompting with mamba for all-in-one image restoration**\
-  *Appl. Intell. 2025* · [📄 Paper](https://link.springer.com/article/10.1007/s10489-024-06226-y)
-
 - **Textual prompt guided image restoration** (TextPromptIR)\
   *Eng. Appl. Artif. Intell. 2025* · [📄 Paper](https://arxiv.org/abs/2312.06162) · [💻 Code](https://github.com/MoTong-AI-studio/TextPromptIR)
-
-- **Vision-Language Gradient Descent-driven All-in-One Deep Unfolding Networks**\
-  *CVPR 2025* · [📄 Paper](https://arxiv.org/abs/2503.16930) · [💻 Code](https://github.com/xianggkl/VLU-Net)
 
 - **VL-UR: Vision-Language-guided Universal Restoration of Images Degraded by Adverse Weather Conditions**\
   *arXiv 2025* · [📄 Paper](https://arxiv.org/abs/2504.08219)
@@ -149,7 +136,8 @@ This list follows the complete reference coverage of *A Survey on Image Restorat
 
 #### Pretrained Generative Priors
 
-Task-specific generative context is listed under [Related Restoration-Specific Generative Models](docs/supporting-papers.md#related-restoration-specific-generative-models).
+- **DCDP: Decoupled Data Consistency via Diffusion Purification for Inverse Problems**\
+  *ICCP 2026* · [📄 Paper](https://ieeexplore.ieee.org/document/11668875/)
 
 - **Efficient Zero-shot Inpainting with Decoupled Diffusion Guidance**\
   *ICLR 2026* · [📄 Paper](https://arxiv.org/abs/2512.18365) · [💻 Code](https://github.com/YazidJanati/ding)
@@ -171,9 +159,6 @@ Task-specific generative context is listed under [Related Restoration-Specific G
 
 - **D-Flow: Differentiating through Flows for Controlled Generation**\
   *ICML 2024* · [📄 Paper](https://arxiv.org/abs/2402.14017)
-
-- **Decoupled Data Consistency with Diffusion Purification for Image Restoration**\
-  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2403.06054)
 
 - **Diffusion Priors for Variational Likelihood Estimation and Image Denoising**\
   *NeurIPS 2024* · [📄 Paper](https://arxiv.org/abs/2410.17521) · [💻 Code](https://github.com/HUST-Tan/DiffusionVI)
@@ -220,25 +205,29 @@ Task-specific generative context is listed under [Related Restoration-Specific G
 - **Solving Linear Inverse Problems Provably via Posterior Sampling with Latent Diffusion Models** (PSLD)\
   *NeurIPS 2023* · [📄 Paper](https://arxiv.org/abs/2307.00619)
 
+- **Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model**\
+  *ICLR 2023* · [📄 Paper](https://arxiv.org/abs/2212.00490) · [💻 Code](https://github.com/wyhuai/DDNM)
+
 - **Denoising Diffusion Restoration Models**\
   *NeurIPS 2022* · [📄 Paper](https://arxiv.org/abs/2201.11793) · [💻 Code](https://github.com/bahjat-kawar/ddrm) · [🌐 Project](https://ddrm-ml.github.io/)
 
 - **RePaint: Inpainting Using Denoising Diffusion Probabilistic Models**\
   *CVPR 2022* · [📄 Paper](https://arxiv.org/abs/2201.09865) · [💻 Code](https://github.com/andreas128/RePaint)
 
-- **Zero-Shot Image Restoration Using Denoising Diffusion Null-Space Model**\
-  *arXiv 2022* · [📄 Paper](https://arxiv.org/abs/2212.00490) · [💻 Code](https://github.com/wyhuai/DDNM)
-
 - **PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models**\
   *CVPR 2020* · [📄 Paper](https://arxiv.org/abs/2003.03808)
 
 #### Conditional Generative Restoration
+
+Includes task-specific generative models reviewed alongside methods that reuse pretrained foundation-model priors.
 
 - **DNF-SR: Dual-Input and Negative-Aware Feature Fine-Tuning for Real-World Image Super-Resolution**\
   *CVPR 2026* · [📄 Paper](https://arxiv.org/abs/2609.15120)
 
 - **Edit2Restore: Few-Shot Image Restoration via Parameter-Efficient Adaptation of Pre-trained Editing Models**\
   *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2601.03391) · [💻 Code](https://github.com/makinyilmaz/Edit2Restore)
+
+<a id="fill2sr"></a>
 
 - **Fill2SR: Repurposing Inpainting Diffusion Transformers for Real-World Super-Resolution**\
   *ECCV 2026* · [📄 Paper](https://arxiv.org/abs/2609.33582)
@@ -297,11 +286,15 @@ Task-specific generative context is listed under [Related Restoration-Specific G
 - **DiffBIR: Toward Blind Image Restoration with Generative Diffusion Prior**\
   *ECCV 2024* · [📄 Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07690.pdf) · [💻 Code](https://github.com/XPixelGroup/DiffBIR)
 
+<a id="dreamclear"></a>
+
 - **DreamClear: High-Capacity Real-World Image Restoration with Privacy-Safe Dataset Curation**\
   *NeurIPS 2024* · [📄 Paper](https://arxiv.org/abs/2410.18666) · [💻 Code](https://github.com/shallowdream204/DreamClear)
 
 - **Exploiting Diffusion Prior for Real-World Image Super-Resolution**\
   *Int. J. Comput. Vis. 2024* · [📄 Paper](https://arxiv.org/abs/2305.07015) · [💻 Code](https://github.com/IceClear/StableSR)
+
+<a id="multimodal-prompt-perceiver"></a>
 
 - **Multimodal Prompt Perceiver: Empower Adaptiveness, Generalizability and Fidelity for All-in-One Image Restoration**\
   *CVPR 2024* · [📄 Paper](https://arxiv.org/abs/2312.02918) · [💻 Code](https://github.com/hhb072/MPerceiver-Code)
@@ -327,11 +320,17 @@ Task-specific generative context is listed under [Related Restoration-Specific G
 - **Image Restoration with Mean-Reverting Stochastic Differential Equations** (IR-SDE)\
   *ICML 2023* · [📄 Paper](https://arxiv.org/abs/2301.11699) · [💻 Code](https://github.com/Algolzw/image-restoration-sde)
 
+- **I²SB: Image-to-Image Schrödinger Bridge**\
+  *ICML 2023* · [📄 Paper](https://arxiv.org/abs/2302.05872) · [💻 Code](https://github.com/NVlabs/I2SB) · [🌐 Project](https://i2sb.github.io/)
+
 - **Towards Robust Blind Face Restoration with Codebook Lookup Transformer** (CodeFormer)\
   *NeurIPS 2022* · [📄 Paper](https://arxiv.org/abs/2206.11253) · [💻 Code](https://github.com/sczhou/CodeFormer) · [🌐 Project](https://shangchenzhou.com/projects/CodeFormer/)
 
 - **GLEAN: Generative Latent Bank for Large-Factor Image Super-Resolution**\
   *CVPR 2021* · [📄 Paper](https://arxiv.org/abs/2012.00739) · [🌐 Project](https://mmlab-ntu.github.io/project/glean/)
+
+- **Image Super-Resolution via Iterative Refinement** (SR3)\
+  *arXiv 2021* · [📄 Paper](https://arxiv.org/abs/2104.07636) · [🌐 Project](https://iterative-refinement.github.io/)
 
 - **Towards Real-World Blind Face Restoration With Generative Facial Prior** (GFP-GAN)\
   *CVPR 2021* · [📄 Paper](https://arxiv.org/abs/2101.04061) · [💻 Code](https://github.com/TencentARC/GFPGAN)
@@ -346,12 +345,6 @@ Task-specific generative context is listed under [Related Restoration-Specific G
 
 - **FideDiff: Efficient Diffusion Model for High-Fidelity Image Motion Deblurring**\
   *ICLR 2026* · [📄 Paper](https://arxiv.org/abs/2510.01641) · [💻 Code](https://github.com/xyLiu339/FideDiff)
-
-- **FiDeSR: High-Fidelity and Detail-Preserving One-Step Diffusion Super-Resolution**\
-  *CVPR 2026* · [📄 Paper](https://arxiv.org/abs/2603.02692) · [💻 Code](https://github.com/Ar0Kim/FiDeSR)
-
-- **FreqOrtho-SR: Frequency-Guided Orthogonal Expert Learning for Real-World Image Super-Resolution**\
-  *ECCV 2026* · [📄 Paper](https://arxiv.org/abs/2606.28745) · [💻 Code](https://github.com/sonhm3029/FreqOrtho-SR)
 
 - **IFCSR: Inference-Free Fidelity-Realism Control for One-Step Diffusion-based Real-World Image Super-Resolution**\
   *CVPR 2026* · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Back_IFCSR_Inference-Free_Fidelity-Realism_Control_for_One-Step_Diffusion-based_Real-World_Image_Super-Resolution_CVPR_2026_paper.html)
@@ -397,40 +390,18 @@ Task-specific generative context is listed under [Related Restoration-Specific G
 
 ### Training Resources and Quality Signals
 
-Training-data synthesis, preference optimization, and quality signals that guide restoration. General datasets and evaluation metrics are listed separately under [Datasets and Evaluation Resources](#datasets-and-evaluation-resources).
+Restoration training-supervision works appear below. See [Quality Assessment and Related Benchmarks](docs/supporting-papers.md#quality-assessment-and-related-benchmarks) and [Training Data Generation and Datasets](docs/supporting-papers.md#training-data-generation-and-datasets) for the supporting sources.
+
+#### Training Supervision
 
 - **Follow-Your-Preference: Towards Preference-Aligned Image Inpainting**\
   *ICLR 2026* · [📄 Paper](https://arxiv.org/abs/2509.23082) · [💻 Code](https://github.com/shenytzzz/Follow-Your-Preference)
 
-- **GGT-100K: Generative Ground Truth for Generalizable Real-World Image Restoration**\
-  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2605.31039) · [💻 Code](https://github.com/PolyU-VCLab/GGT-100K) · [🌐 Project](https://polyu-vclab.github.io/GGT-100K/)
-
-- **Grounding-IQA: Grounding Multimodal Language Model for Image Quality Assessment**\
-  *ICLR 2026* · [📄 Paper](https://arxiv.org/abs/2411.17237) · [🌐 Project](https://zheng-chen.cn/Grounding-IQA/)
-
-- **IPAD-CLIP: Teaching CLIP to Detect Image Local Perceptual Artifacts**\
-  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2605.08664)
-
-- **IQA-T1: Tool-based Visual Evidence Reasoning for Image Quality Assessment**\
-  *ECCV 2026* · [📄 Paper](https://arxiv.org/abs/2607.12375) · [💻 Code](https://github.com/zibuyu-02/IQA-T1)
-
 - **Perceive-IR: Learning to Perceive Degradation Better for All-in-One Image Restoration**\
   *IEEE Trans. Image Process. 2026* · [📄 Paper](https://arxiv.org/abs/2408.15994)
 
-- **Q-Hawkeye: Reliable Visual Policy Optimization for Image Quality Assessment**\
-  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2601.22920) · [💻 Code](https://github.com/aba122/Q-Hawkeye)
-
-- **Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment** (RALI)\
-  *ICLR 2026* · [📄 Paper](https://arxiv.org/abs/2510.11369) · [💻 Code](https://github.com/xuanyuzhang21/RALI)
-
 - **Unpaired Image Deraining Using Reward-Guided Self-Reinforcement Strategy** (RGSUD)\
   *CVPR 2026* · [📄 Paper](https://arxiv.org/abs/2605.00719)
-
-- **AgenticIQA: An Agentic Framework for Adaptive and Interpretable Image Quality Assessment**\
-  *arXiv 2025* · [📄 Paper](https://arxiv.org/abs/2509.26006)
-
-- **Enhancing Descriptive Image Quality Assessment with A Large-scale Multi-modal Dataset** (DepictQA-Wild)\
-  *IEEE Trans. Image Process. 2025* · [📄 Paper](https://arxiv.org/abs/2405.18842) · [🌐 Project](https://depictqa.github.io/)
 
 - **GenDeg: Diffusion-based Degradation Synthesis for Generalizable All-In-One Image Restoration**\
   *CVPR 2025* · [📄 Paper](https://arxiv.org/abs/2411.17687)
@@ -441,62 +412,22 @@ Training-data synthesis, preference optimization, and quality signals that guide
 - **IRPO: Boosting Image Restoration via Post-training GRPO**\
   *arXiv 2025* · [📄 Paper](https://arxiv.org/abs/2512.00814) · [🌐 Project](https://github.com/HaoxuanXU1024/IRPO)
 
-- **Q-Insight: Understanding Image Quality via Visual Reinforcement Learning**\
-  *NeurIPS 2025* · [📄 Paper](https://arxiv.org/abs/2503.22679)
-
-- **Q-Ponder: A Unified Training Pipeline for Reasoning-based Visual Quality Assessment**\
-  *arXiv 2025* · [📄 Paper](https://arxiv.org/abs/2506.05384)
-
 - **SnowMaster: Comprehensive Real-world Image Desnowing via MLLM with Multi-Model Feedback Optimization**\
   *CVPR 2025* · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Lai_SnowMaster_Comprehensive_Real-world_Image_Desnowing_via_MLLM_with_Multi-Model_Feedback_CVPR_2025_paper.pdf) · [🌐 Project](https://alexlai2860.github.io/SnowMaster)
 
-- **Teaching Large Language Models to Regress Accurate Image Quality Scores Using Score Distribution** (DeQA-Score)\
-  *CVPR 2025* · [📄 Paper](https://arxiv.org/abs/2501.11561)
-
-- **VisualQuality-R1: Reasoning-Induced Image Quality Assessment via Reinforcement Learning to Rank**\
-  *NeurIPS 2025* · [📄 Paper](https://arxiv.org/abs/2505.14460)
-
-- **Adaptive Image Quality Assessment via Teaching Large Multimodal Model to Compare** (Compare2Score)\
-  *NeurIPS 2024* · [📄 Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/393367b4ccf1d56e51276243d5cb85c4-Abstract-Conference.html)
-
-- **Depicting Beyond Scores: Advancing Image Quality Assessment through Multi-modal Language Models** (DepictQA)\
-  *ECCV 2024* · [📄 Paper](https://arxiv.org/abs/2312.08962) · [🌐 Project](https://depictqa.github.io)
-
-- **DiffLoss: unleashing diffusion model as constraint for training image restoration network**\
+- **DiffLoss: Unleashing Diffusion Model as Constraint for Training Image Restoration Network**\
   *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2406.19030) · [💻 Code](https://github.com/JosephTiTan/DiffLoss)
 
 - **LossAgent: Towards Any Optimization Objectives for Image Processing with LLM Agents**\
   *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2412.04090) · [🌐 Project](https://github.com/lbc12345/LossAgent)
-
-- **Q-Align: Teaching LMMs for Visual Scoring via Discrete Text-Defined Levels**\
-  *ICML 2024* · [📄 Paper](https://proceedings.mlr.press/v235/wu24ah.html)
-
-- **Q-Ground: Image Quality Grounding with Large Multi-modality Models**\
-  *ACM MM 2024* · [📄 Paper](https://arxiv.org/abs/2407.17035) · [💻 Code](https://github.com/Q-Future/Q-Ground)
-
-- **Q-Instruct: Improving Low-level Visual Abilities for Multi-modality Foundation Models**\
-  *CVPR 2024* · [📄 Paper](https://arxiv.org/abs/2311.06783) · [💻 Code](https://github.com/Q-Future/Q-Instruct) · [🌐 Project](https://q-future.github.io/Q-Instruct/)
-
-- **Quality-Aware Image-Text Alignment for Opinion-Unaware Image Quality Assessment** (QualiCLIP)\
-  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2403.11176) · [💻 Code](https://github.com/miccunifi/QualiCLIP)
-
-- **SEAGULL: No-reference Image Quality Assessment for Regions of Interest via Vision-Language Instruction Tuning**\
-  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2411.10161) · [💻 Code](https://github.com/chencn2020/Seagull)
-
-- **Towards Open-ended Visual Quality Comparison** (Co-Instruct)\
-  *ECCV 2024* · [📄 Paper](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/422_ECCV_2024_paper.php)
-
-- **Blind Image Quality Assessment via Vision-Language Correspondence: A Multitask Learning Perspective** (LIQE)\
-  *CVPR 2023* · [📄 Paper](https://arxiv.org/abs/2303.14968) · [💻 Code](https://github.com/zwx8981/LIQE)
-
-- **Exploring CLIP for Assessing the Look and Feel of Images** (CLIP-IQA)\
-  *AAAI 2023* · [📄 Paper](https://arxiv.org/abs/2207.12396) · [💻 Code](https://github.com/IceClear/CLIP-IQA)
 
 - **SUD²: Supervision by Denoising Diffusion Models for Image Reconstruction**\
   *arXiv 2023* · [📄 Paper](https://arxiv.org/abs/2303.09642)
 
 - **Synthesizing Realistic Image Restoration Training Pairs: A Diffusion Approach** (Diffusion-pair synthesis)\
   *arXiv 2023* · [📄 Paper](https://arxiv.org/abs/2303.06994)
+
+Also reviewed for training-resource roles: [DreamClear](#dreamclear) and [Fill2SR](#fill2sr), each listed once under conditional generative restoration.
 
 <a id="restoration-oriented-foundation-models"></a>
 
@@ -552,9 +483,6 @@ Training-data synthesis, preference optimization, and quality signals that guide
 
 - **UniRestorer: Universal Image Restoration via Adaptively Estimating Image Degradation at Proper Granularity**\
   *ICLR 2026* · [📄 Paper](https://arxiv.org/abs/2412.20157) · [💻 Code](https://github.com/mrluin/UniRestorer)
-
-- **AllRestorer: All-in-one transformer for image restoration under composite degradations**\
-  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2411.10708)
 
 - **OneRestore: A Universal Restoration Framework for Composite Degradation**\
   *ECCV 2024* · [📄 Paper](https://arxiv.org/abs/2407.04621) · [💻 Code](https://github.com/gy65896/OneRestore)
@@ -642,6 +570,8 @@ Training-data synthesis, preference optimization, and quality signals that guide
 - **ProRes: Exploring Degradation-aware Visual Prompt for Universal Image Restoration**\
   *arXiv 2023* · [📄 Paper](https://arxiv.org/abs/2306.13653) · [💻 Code](https://github.com/leonmakise/ProRes)
 
+For the cross-task adaptation role of [Multimodal Prompt Perceiver](#multimodal-prompt-perceiver), see its primary entry under conditional generative restoration.
+
 #### Continual Image Restoration
 
 - **Learning to Restore More: Continual Capability Expansion for Pretrained Image Restoration Models**\
@@ -659,11 +589,17 @@ Training-data synthesis, preference optimization, and quality signals that guide
 - **Continual All-in-One Adverse Weather Removal with Knowledge Replay on a Unified Network Structure** (Continual weather removal)\
   *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2403.07292) · [💻 Code](https://github.com/xiaojihh/CL_all-in-one)
 
+- **Review Learning: Advancing All-in-One Ultra-High-Definition Image Restoration Training Method**\
+  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2408.06709)
+
 <a id="agentic-image-restoration"></a>
 
 ## 🤖 Agentic Image Restoration
 
 ### Task Planning
+
+- **Derain-Agent: A Plug-and-Play Agent Framework for Rainy Image Restoration**\
+  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2603.11866) — Task-specific learned planning precedent.
 
 - **Multi-Agent Image Restoration** (MAIR)\
   *Int. J. Comput. Vis. 2026* · [📄 Paper](https://arxiv.org/abs/2503.09403) · [🌐 Project](https://villa.jianzhang.tech/publication/200604/)
@@ -682,14 +618,16 @@ Training-data synthesis, preference optimization, and quality signals that guide
 
 ### Tool Selection
 
+Includes agent tool selection and executor-side expert routing or allocation.
+
 - **Beyond Sequential Tools: A Unified VLM Agent System for Photographic Post-Processing via Dynamic Multi-Expert Fusion**\
-  *CVPR 2026* · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Xiong_Beyond_Sequential_Tools_A_Unified_VLM_Agent_System_for_Photographic_CVPR_2026_paper.html)
+  *CVPR 2026* · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2026/html/Xiong_Beyond_Sequential_Tools_A_Unified_VLM_Agent_System_for_Photographic_CVPR_2026_paper.html) — Executor-side LoRA allocation.
 
 - **DiTTo: Scalable Order-aware All-in-One Image Restoration Agent**\
   *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2605.30915) · [🌐 Project](https://cmlab-korea.github.io/DiTTo/)
 
 - **FAPE-IR: Frequency-Aware Planning and Execution Framework for All-in-One Image Restoration**\
-  *CVPR 2026* · [📄 Paper](https://arxiv.org/abs/2511.14099) · [💻 Code](https://github.com/Programmergg/FAPE-IR)
+  *CVPR 2026* · [📄 Paper](https://arxiv.org/abs/2511.14099) · [💻 Code](https://github.com/Programmergg/FAPE-IR) — Executor-side expert routing.
 
 - **Restore-R1: Efficient Image Restoration Agents via Reinforcement Learning with Multimodal LLM Perceptual Feedback**\
   *CVPR Findings 2026* · [📄 Paper](https://arxiv.org/abs/2512.18599)
@@ -723,6 +661,8 @@ Training-data synthesis, preference optimization, and quality signals that guide
 - **Clarity ChatGPT: An Interactive and Adaptive Processing System for Image Restoration and Enhancement**\
   *arXiv 2023* · [📄 Paper](https://arxiv.org/abs/2311.11695)
 
+[SkillIR](#skillir) also contributes to feedback and refinement; its primary entry is under experience retrieval.
+
 ### Experience Retrieval
 
 - **Causal-AgentIR: Self-Evolving Causal Memory for Adaptive Image Restoration Agents**\
@@ -737,87 +677,7 @@ Training-data synthesis, preference optimization, and quality signals that guide
 - **Self-evolving Agentic Image Restoration via Deliberate Planning and Intuitive Execution** (SEAR)\
   *ECCV 2026* · [📄 Paper](https://arxiv.org/abs/2606.28971)
 
+<a id="skillir"></a>
+
 - **SkillIR: Evolving Scene-Aware Skills for Agentic Image Restoration**\
   *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2609.21468)
-
-### Related Learned and Sequential Restoration Mechanisms
-
-Context: task-specific learned controllers and sequential composition of multi-task restorers.
-
-- **Derain-Agent: A Plug-and-Play Agent Framework for Rainy Image Restoration**\
-  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2603.11866)
-
-- **Chain-of-Restoration: Multi-Task Image Restoration Models are Zero-Shot Step-by-Step Universal Image Restorers** (CoR)\
-  *arXiv 2024* · [📄 Paper](https://arxiv.org/abs/2410.08688)
-
-<a id="datasets-and-evaluation-resources"></a>
-
-## 📊 Datasets and Evaluation Resources
-
-Datasets, evaluation metrics, and grounding benchmarks cited in the Survey. Assessment models used as training or feedback signals appear under [Training Resources and Quality Signals](#training-resources-and-quality-signals).
-
-### Datasets and Benchmarks
-
-- **WeatherBench: A Real-World Benchmark Dataset for All-in-One Adverse Weather Image Restoration**\
-  *ACM MM Datasets Track 2025* · [📄 Paper](https://dl.acm.org/doi/10.1145/3746027.3758196) · [🌐 Project](https://github.com/guanqiyuan/WeatherBench)
-
-- **WeatherStream: Light Transport Automation of Single Image Deweathering**\
-  *CVPR 2023* · [📄 Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_WeatherStream_Light_Transport_Automation_of_Single_Image_Deweathering_CVPR_2023_paper.html)
-
-- **Component Divide-and-Conquer for Real-World Image Super-Resolution**\
-  *ECCV 2020* · [📄 Paper](https://arxiv.org/abs/2008.01928) · [💻 Code](https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution)
-
-- **Real-World Blur Dataset for Learning and Benchmarking Deblurring Algorithms**\
-  *ECCV 2020* · [📄 Paper](https://www.ecva.net/papers/eccv_2020/papers_ECCV/html/4924_ECCV_2020_paper.php)
-
-- **Benchmarking Single-Image Dehazing and Beyond**\
-  *IEEE Trans. Image Process. 2019* · [📄 Paper](https://ieeexplore.ieee.org/document/8451944/)
-
-- **Toward Real-World Single Image Super-Resolution: A New Benchmark and A New Model**\
-  *ICCV 2019* · [📄 Paper](https://arxiv.org/abs/1904.00523)
-
-- **A High-Quality Denoising Dataset for Smartphone Cameras**\
-  *CVPR 2018* · [📄 Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Abdelhamed_A_High-Quality_Denoising_CVPR_2018_paper.html)
-
-- **Deep Retinex Decomposition for Low-Light Enhancement**\
-  *BMVC 2018* · [📄 Paper](https://arxiv.org/abs/1808.04560) · [💻 Code](https://github.com/weichen582/RetinexNet) · [🌐 Project](https://daooshee.github.io/BMVC2018website/)
-
-- **ImageNet: A Large-Scale Hierarchical Image Database**\
-  *CVPR 2009* · [📄 Paper](https://ieeexplore.ieee.org/document/5206848)
-
-### Quality Metrics
-
-- **MUSIQ: Multi-scale Image Quality Transformer**\
-  *ICCV 2021* · [📄 Paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Ke_MUSIQ_Multi-Scale_Image_Quality_Transformer_ICCV_2021_paper.pdf)
-
-- **The Unreasonable Effectiveness of Deep Features as a Perceptual Metric**\
-  *CVPR 2018* · [📄 Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html)
-
-- **GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium**\
-  *NeurIPS 2017* · [📄 Paper](https://arxiv.org/abs/1706.08500)
-
-- **Making a "Completely Blind" Image Quality Analyzer**\
-  *IEEE Signal Process. Lett. 2013* · [📄 Paper](https://ieeexplore.ieee.org/document/6353522/)
-
-- **Image Quality Assessment: From Error Visibility to Structural Similarity**\
-  *IEEE Trans. Image Process. 2004* · [📄 Paper](https://ieeexplore.ieee.org/document/1284395) · [🌐 Project](https://ece.uwaterloo.ca/~z70wang/research/ssim/)
-
-### Quality and Fidelity Grounding Benchmarks
-
-- **LL-Bench: Rethinking Low-Level Vision Evaluation in the Era of Large-Scale Generative Models**\
-  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2606.02535)
-
-- **SR-Ground: Image Quality Grounding for Super-Resolved Content**\
-  *arXiv 2026* · [📄 Paper](https://arxiv.org/abs/2605.21244)
-
-<a id="supporting-papers"></a>
-
-## 📚 Supporting Papers
-
-See [Supporting Papers](docs/supporting-papers.md) for comparison baselines, task-specific generative context, related surveys, and foundational background.
-
-<a id="contributing"></a>
-
-## 🤝 Contributing
-
-Suggestions and corrections are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing an entry.
