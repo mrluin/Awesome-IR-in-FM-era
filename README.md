@@ -12,6 +12,8 @@
 
 The main list follows the works reviewed Sections II–IV of *A Survey on Image Restoration in the Foundation Model Era*.
 
+[Read the survey (PDF)](papers/_Survey_full.pdf)
+
 
 
 <a id="contents"></a>
